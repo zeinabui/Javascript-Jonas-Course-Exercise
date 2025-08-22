@@ -468,19 +468,59 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 GOOD LUCK 😀
 */
 
+/* Test Data 1
 const DolphinAvgScore = (96 + 108 + 89) / 3;
 const KoalasAvgScore = (88 + 91 + 110) / 3;
 console.log(DolphinAvgScore, KoalasAvgScore);
 
 if (DolphinAvgScore > KoalasAvgScore) {
   console.log(`Dolphins wins with ${DolphinAvgScore} average score`);
-} else if {
-  
+} else if (DolphinAvgScore < KoalasAvgScore) {
+  console.log(`Koalas wins with ${KoalasAvgScore} average score`);
+} else if (DolphinAvgScore === KoalasAvgScore) {
+  console.log(`Both win the trophy`);
 }
+  */
 
+/*
+//Test Data 2
+const DolphinAvgScore = (97 + 112 + 101) / 3;
+const KoalasAvgScore = (109 + 95 + 123) / 3;
+console.log(DolphinAvgScore, KoalasAvgScore);
 
+if (DolphinAvgScore > KoalasAvgScore && DolphinAvgScore >= 100) {
+  console.log(`Dolphins wins with ${DolphinAvgScore} average score`);
+} else if (DolphinAvgScore < KoalasAvgScore && KoalasAvgScore >= 100) {
+  console.log(`Koalas wins with ${KoalasAvgScore} average score`);
+} else if (
+  DolphinAvgScore === KoalasAvgScore &&
+  DolphinAvgScore == 100 &&
+  KoalasAvgScore == 100
+) {
+  console.log(`Both win the trophy`);
+}
+  */
 
+/*
+////Test Data 3
+const DolphinAvgScore = (97 + 112 + 101) / 3;
+const KoalasAvgScore = (109 + 95 + 106) / 3;
+console.log(DolphinAvgScore, KoalasAvgScore);
 
+if (DolphinAvgScore > KoalasAvgScore && DolphinAvgScore >= 100) {
+  console.log(`Dolphins wins with ${DolphinAvgScore} average score`);
+} else if (DolphinAvgScore < KoalasAvgScore && KoalasAvgScore >= 100) {
+  console.log(`Koalas wins with ${KoalasAvgScore} average score`);
+} else if (
+  DolphinAvgScore === KoalasAvgScore &&
+  DolphinAvgScore >= 100 &&
+  KoalasAvgScore >= 100
+) {
+  console.log(`Both win the trophy`);
+} else {
+  console.log(`No one wins the trophy`);
+}
+*/
 
 ///////
 // Introduction to Objects
