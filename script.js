@@ -850,3 +850,67 @@ console.log(calcAverage(totals));
 console.log(calcAverage(tips));
 ////
 */
+
+///// Challange
+// A teacher wants to calculate the class average and decide if the class passes.
+
+// 1. Store the grades of 5 students in an array.
+// 2. Calculate the average grade.
+// 3. If the average is >= 60, print "Class Passed 🎉", otherwise print "Class Failed ❌".
+
+// BONUS:
+// 4. Find the highest grade and print it with the message: "Highest grade is X".
+// 5. Find the lowest grade and print it with the message: "Lowest grade is Y".
+
+// TEST DATA: [55, 70, 90, 45, 80]
+/*
+const grades = [55, 70, 90, 45, 80];
+const avgGrade = (55 + 70 + 90 + 45 + 80) / 5;
+
+if (avgGrade >= 60) {
+  console.log("Class Passed 🎉");
+} else console.log("Class Failed ❌");
+
+*/
+
+/*
+Steven is building a tip calculator.
+
+1. Write a program to calculate the tip.
+2. The tip should be 15% of the bill if the bill value is between 50 and 300.
+3. If the bill is outside this range, the tip should be 20%.
+
+BONUS:
+4. Print: "The bill was X, the tip was Y, and the total value Z".
+   Use template literals to include the values.
+
+TEST DATA: Bill values 275, 40, 430
+*/
+
+/*
+const billValues = [275, 40, 430];
+
+const billValues = [275, 40, 430];
+
+for (let bill of billValues) {
+  let tip;
+
+  if (bill >= 50 && bill <= 300) {
+    tip = bill * 0.15; // 15%
+  } else {
+    tip = bill * 0.2; // 20%
+  }
+
+  console.log(
+    `The bill was ${bill}, the tip was ${tip}, and the total value ${
+      bill + tip
+    }`
+  );
+}
+*/
+
+// 🔎 What does of do?
+
+// That’s part of the for...of loop in JavaScript.
+
+// It means: “loop through each element in something that can be iterated (like an array, string, etc.)”.
